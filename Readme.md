@@ -105,15 +105,7 @@ cd Multi-Agent-AI-Research-system
 
 ### 2. Install dependencies
 
-If the repository contains a `pyproject.toml`:
-
-```bash
-uv sync
-```
-
-If it does not, initialize the project with the dependencies already listed in your `requirements.txt`, or use the dependency installation approach documented by the project.
-
-For a requirements-based setup:
+To install all the required dependencies use:
 
 ```bash
 uv pip install -r requirements.txt
